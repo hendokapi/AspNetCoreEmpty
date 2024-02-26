@@ -11,6 +11,10 @@
 <body>
     @RenderSection("PreTitle", false)
 
+    <ul>
+        <li><a asp-controller="Home" asp-action="Index">Home</a></li>
+        <li><a asp-controller="Home" asp-action="AboutUs">About us</a></li>
+    </ul>
     <h1>Primo sito MVC</h1>
 
     @RenderBody()
